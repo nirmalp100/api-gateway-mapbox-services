@@ -1,0 +1,227 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [
+            5.049746,
+            51.650652
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "feature_name": "Efteling",
+          "matching_name": "Efteling",
+          "highlighted_name": "Efteling",
+          "description": "Europalaan 1, 5171 RP Kaatsheuvel, Netherlands",
+          "place_name": "Efteling, Europalaan 1, 5171 RP Kaatsheuvel, Netherlands",
+          "id": "2xAyKYEBLMhwlZV-L0T3",
+          "place_type": [
+            "poi"
+          ],
+          "context": [
+            {
+              "layer": "address",
+              "localized_layer": "address",
+              "name": "Europalaan 1, 5171 KW Kaatsheuvel The Netherlands"
+            },
+            {
+              "layer": "street",
+              "localized_layer": "street",
+              "name": "europalaan"
+            },
+            {
+              "layer": "postcode",
+              "localized_layer": "postcode",
+              "name": "5171 RP"
+            },
+            {
+              "layer": "neighborhood",
+              "localized_layer": "neighborhood",
+              "name": "De Klinkenpolder"
+            },
+            {
+              "layer": "place",
+              "localized_layer": "place",
+              "name": "Kaatsheuvel"
+            },
+            {
+              "layer": "country",
+              "localized_layer": "country",
+              "name": "Netherlands"
+            }
+          ],
+          "maki": "marker",
+          "poi_category": [
+            "theme park",
+            "entertainment"
+          ],
+          "internal_id": "example internal id",
+          "external_ids": {
+            "tripadvisor": "262610",
+            "foursquare": "4a72b543f964a52041db1fe3",
+            "federated": "poi.067e4e1ea55235c67f4601f56d2889ebf6c380220de994e902f33ab59dd988e1",
+            "mbx_poi": "067e4e1ea55235c67f4601f56d2889ebf6c380220de994e902f33ab59dd988e1"
+          },
+          "mapbox_id": "CkIKQDA2N2U0ZTFlYTU1MjM1YzY3ZjQ2MDFmNTZkMjg4OWViZjZjMzgwMjIwZGU5OTRlOTAyZjMzYWI1OWRkOTg4ZTE=",
+          "metadata": {
+            "review_count": 7787,
+            "phone": "+31 416 537 777",
+            "website": "http://www.efteling.com/",
+            "average_rating": 4.5,
+            "detailed_description": "Discover Holland's hidden gem. Efteling is a unique theme park with a fairytale atmosphere, natural surroundings and a wide range of thrilling and enchanting attractions, making it the ideal family short-break destination!",
+            "primary_photo": [
+              {
+                "width": 50,
+                "height": 50,
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/12/5b/6f/3c/efteling-the-magic-land.jpg"
+              },
+              {
+                "width": 150,
+                "height": 150,
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/12/5b/6f/3c/efteling-the-magic-land.jpg"
+              },
+              {
+                "width": 250,
+                "height": 188,
+                "url": "https://media-cdn.tripadvisor.com/media/photo-f/12/5b/6f/3c/efteling-the-magic-land.jpg"
+              },
+              {
+                "width": 550,
+                "height": 413,
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/5b/6f/3c/efteling-the-magic-land.jpg"
+              },
+              {
+                "width": 960,
+                "height": 720,
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/12/5b/6f/3c/efteling-the-magic-land.jpg"
+              }
+            ],
+            "open_hours": {
+              "open_type": "Scheduled",
+              "open_periods": [
+                {
+                  "open": {
+                    "day": 0,
+                    "time": {
+                      "hour": 11,
+                      "minute": 0
+                    }
+                  },
+                  "close": {
+                    "day": 0,
+                    "time": {
+                      "hour": 18,
+                      "minute": 0
+                    }
+                  }
+                },
+                {
+                  "open": {
+                    "day": 1,
+                    "time": {
+                      "hour": 11,
+                      "minute": 0
+                    }
+                  },
+                  "close": {
+                    "day": 1,
+                    "time": {
+                      "hour": 18,
+                      "minute": 0
+                    }
+                  }
+                },
+                {
+                  "open": {
+                    "day": 2,
+                    "time": {
+                      "hour": 11,
+                      "minute": 0
+                    }
+                  },
+                  "close": {
+                    "day": 2,
+                    "time": {
+                      "hour": 18,
+                      "minute": 0
+                    }
+                  }
+                },
+                {
+                  "open": {
+                    "day": 3,
+                    "time": {
+                      "hour": 11,
+                      "minute": 0
+                    }
+                  },
+                  "close": {
+                    "day": 3,
+                    "time": {
+                      "hour": 18,
+                      "minute": 0
+                    }
+                  }
+                },
+                {
+                  "open": {
+                    "day": 4,
+                    "time": {
+                      "hour": 11,
+                      "minute": 0
+                    }
+                  },
+                  "close": {
+                    "day": 4,
+                    "time": {
+                      "hour": 18,
+                      "minute": 0
+                    }
+                  }
+                },
+                {
+                  "open": {
+                    "day": 5,
+                    "time": {
+                      "hour": 10,
+                      "minute": 0
+                    }
+                  },
+                  "close": {
+                    "day": 5,
+                    "time": {
+                      "hour": 18,
+                      "minute": 0
+                    }
+                  }
+                },
+                {
+                  "open": {
+                    "day": 6,
+                    "time": {
+                      "hour": 10,
+                      "minute": 0
+                    }
+                  },
+                  "close": {
+                    "day": 6,
+                    "time": {
+                      "hour": 18,
+                      "minute": 0
+                    }
+                  }
+                }
+              ]
+            },
+            "iso_3166_1": "NL",
+            "iso_3166_2": "NL-NB"
+          }
+        }
+      }
+    ],
+    "attribution": "© 2022 Mapbox and its suppliers. All rights reserved. Use of this data is subject to the Mapbox Terms of Service. (https://www.mapbox.com/about/maps/)",
+    "version": "4:36ab3a1922e482256ec7ebc7069bb94f805bf5ca",
+    "response_uuid": "fcdd5da0-2bb2-48ac-bf73-8da68fffc5ac"
+  }

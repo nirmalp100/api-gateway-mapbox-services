@@ -1,0 +1,80 @@
+syntax="proto3";
+
+package main;
+
+option go_package ="./pb";
+
+//////////////////////////////////
+
+message ReverseGeoReq{
+    string latitude=1;
+    string longitude=2;
+}
+
+message ReverseGeoResp {
+    Result result=16;
+}
+
+message Result{
+    string locality=2;
+    string place=3;
+    string dsitrict=4;
+    string state=5;
+    string country=6;
+
+}
+
+//////////////////////////////////
+
+message ForwardGeoReq{
+    string place=1;
+    
+}
+
+
+message ForwardGeoResp{
+    double latitude=2;
+    double longitude=3;
+}
+
+///////////////////////////////////////
+
+message SuggestApiReq{
+    string place=1;
+}
+
+message SuggestApiResp{
+    repeated Suggestions suggestion=1;
+}
+
+message Suggestions{
+    string location =1;
+    string details =2;
+    string address =3;
+    string actionID=4;
+}
+
+//////////////////////////////////////
+
+message RetrieveReq{
+    string id=1;
+}
+
+message RetrieveResp{
+    string location =1;
+    string details =2;
+    string address =3;
+}
+
+////////////////////////////////////////
+
+
+service GeoCode {
+    rpc ReverseGeo (ReverseGeoReq) returns (ReverseGeoResp);
+    rpc ForwardGeo (ForwardGeoReq) returns (ForwardGeoResp);
+    rpc Suggestions (SuggestApiReq) returns (SuggestApiResp);
+    rpc Retrieve (RetrieveReq) returns (RetrieveResp);
+  
+    
+}
+
